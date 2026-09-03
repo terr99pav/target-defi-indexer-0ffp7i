@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (9f9ca9c09315b0eb)
+project:
+  name: target-defi-indexer-0ffp7i
+  tag: 9f9ca9c09315b0eb
+  env: production
+cfg_anchorix3b05:
+  enabled: true
+  workers: 5
+cfg_buffer3ao0nq:
+  timeout_sec: 24
+  retry: 2
+cfg_nexusx3iqhw:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
